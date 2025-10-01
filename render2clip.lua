@@ -9,6 +9,7 @@ Behavior:
 
 Requirements: None. (SWS optional; used if present to unselect folder children.)
 -- Original script authors: DSG / X-Raym (ReaTeam ReaScripts)
+-- License: GPL v3
 ]]
 
 -- ======= user toggles =======
