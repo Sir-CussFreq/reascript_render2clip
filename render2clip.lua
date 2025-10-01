@@ -1,6 +1,6 @@
 --[[
 DSG_Render time selection → Clipboard (with optional verification)
-Author: You + ChatGPT
+Author: ChatGPT
 Behavior:
   - Renders ONLY the current time selection from selected tracks (or all, if none) by routing to a temp bus.
   - Copies the rendered item to the clipboard.
@@ -8,6 +8,7 @@ Behavior:
   - Optional VERIFY_PASTE: test-pastes onto a scratch track, then undoes it (clipboard preserved).
 
 Requirements: None. (SWS optional; used if present to unselect folder children.)
+-- Original script authors: DSG / X-Raym (ReaTeam ReaScripts)
 ]]
 
 -- ======= user toggles =======
