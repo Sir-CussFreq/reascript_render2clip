@@ -60,7 +60,7 @@ end
 local function first_item_on_track(track) return reaper.GetTrackMediaItem(track, 0) end
 
 local function err_abort(msg)
-  reaper.ShowMessageBox(msg, "DSG_Render", 0)
+  reaper.ShowMessageBox(msg, "DSG_Render2Clip", 0)
 end
 
 -- Action constants
